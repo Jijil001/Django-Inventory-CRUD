@@ -1,14 +1,29 @@
-The virtual environment is -- virt
-first reate an env as follow
-1.python -m venv virt
-2. cd virt
-3. cd scripts
-4. activate
-5. cd../..
-6. pip install django
+## Setting Up Virtual Environment and Installing Dependencies
 
+Follow the steps below to create a virtual environment named `virt`, activate it, and install Django and Pillow.
 
-also install pillow framework
+# 🛠️ Steps
+
+### 1. Create a virtual environment named 'virt'
+python -m venv virt
+
+### 2. Navigate into the 'virt' directory
+cd virt
+
+### 3. Navigate into the 'Scripts' folder (on Windows)
+cd Scripts
+
+### 4. Activate the virtual environment (on Windows)
+activate
+
+### 5. Navigate back to the project root
+cd ../..
+
+### 6. Install Django
+pip install django
+
+### 7. Install Pillow (Python Imaging Library)
+pip install pillow
 
 
 
